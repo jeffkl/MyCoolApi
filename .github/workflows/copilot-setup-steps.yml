@@ -24,3 +24,6 @@ jobs:
           dotnet-version: |
             10.x
           dotnet-quality: preview
+
+      - name: dotnet --info
+        run: dotnet --info
